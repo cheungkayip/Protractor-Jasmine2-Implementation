@@ -1,0 +1,115 @@
+{
+	"ownRisks": {
+		"label": "Selecteer uw eigen risico",
+		"value": "0",
+		"options": [{
+			"key": "0",
+			"value": "Geen"
+		}]
+	},
+	"coverages": [{
+		"advisedCoverageText": "Meest gekozen door klanten met een auto ouder dan 10 jaar.",
+		"coverageText": "<ul><li>een WA-verzekering is wettelijk verplicht voor iedereen met een auto. Veroorzaakt u met de auto schade aan iemand anders? Of aan de spullen van een ander? Dan moet u volgens de wet die schade betalen. Met de WA-dekking bent u hiervoor verzekerd. Interpolis betaalt de schade dan voor u</li><li>schade die u met uw auto veroorzaakt aan iemand anders (letselschade) is verzekerd tot  5.600.000. Voor schade die u veroorzaakt aan de eigendommen van een ander bent u verzekerd tot  2.500.000 per gebeurtenis.</li><li>u hebt geen eigen risico</li><li>ook hulpverlening na een ongeval -zowel in Nederland als in het buitenland- is verzekerd</li><li>schade aan uzelf, uw eigen auto of eigendommen is niet verzekerd. Voor schade aan uw spullen en uw eigen auto heeft u een WA + Beperkt Casco of een WA + Volledig Casco verzekering nodig</li><li>voor schade aan uzelf en de mensen die met u meerijden kunt u de Inzittendenverzekering afsluiten</li></ul>",
+		"name": "Liability",
+		"advised": true,
+		"label": "WA"
+	}, {
+		"advisedCoverageText": "Meest gekozen door klanten met een auto tussen de 6 en 10 jaar.",
+		"coverageText": "<ul><li>met de WA + Beperkt Casco dekking bent u niet alleen verzekerd voor schade aan anderen. Ook schade aan uw eigen auto, zoals brand-, storm- en natuurschade, diefstal en inbraak, ruitbreuk, joyriding en botsing met loslopende dieren is verzekerd</li><li>auto gestolen of total loss door een van de gedekte gebeurtenissen? Dan vergoedt Interpolis -de eerste 3 jaar na aanschaf- het bedrag dat u voor de auto heeft betaald. Dit geldt ook voor tweedehands auto's. Betaalde u meer dan  50.000 voor uw auto? Dan geldt er een andere vergoeding</li><li>reparaties van schade die u zelf veroorzaakte door bijvoorbeeld een aanrijding en schade door vandalisme is niet verzekerd. Hiervoor heeft u een WA + Volledig Casco verzekering nodig.</li><li>Voor schade aan uzelf en de mensen die met u meerijden kunt u de Inzittendenverzekering afsluiten</li></ul>",
+		"name": "LiabilityCascoLimited",
+		"advised": false,
+		"label": "WA + Beperkt Casco"
+	}, {
+		"advisedCoverageText": "Meest gekozen door klanten met een auto jonger dan 6 jaar.",
+		"coverageText": "<ul><li>de WA + Volledig Casco dekking is de meest uitgebreide. Het voordeel van deze dekking is dat u ook bent verzekerd voor de schade aan uw eigen auto. Ook als uzelf de schade heeft veroorzaakt. Verder is de schade verzekerd als iemand expres uw auto beschadigt (vandalisme)</li><li>is de WA + Volledig Casco verzekering iets voor u? Stel uzelf de vraag: Kan en wil ik met mijn spaargeld dezelfde auto kopen na een ongeluk dat ik zelf heb veroorzaakt? Is het antwoord nee? Dan kunt u een WA + Volledig Casco verzekering overwegen</li></ul>",
+		"name": "LiabilityCasco",
+		"advised": false,
+		"label": "WA + Volledig Casco"
+	}],
+	"usps": [{
+		"coverageNames": ["Liability", "LiabilityCascoLimited", "LiabilityCasco"],
+		"uspDetail": {
+			"label": "DamageToOther",
+			"description": "Schade aan anderen"
+		},
+		"description": "<ul><li>lichamelijk letsel tot  5.600.000 per ongeval</li><li>materiële schade tot  2.500.000 per ongeval</li></ul>",
+		"value": "Schade aan anderen"
+	}, {
+		"coverageNames": ["Liability", "LiabilityCascoLimited", "LiabilityCasco"],
+		"uspDetail": {
+			"label": "RoadAssistance",
+			"description": "Hulp na een ongeval"
+		},
+		"description": "Met de Autoverzekering van Interpolis bent u in binnen- en buitenland verzekerd van gratis hulpverlening na een ongeval. Want de alarmcentrale van Interpolis -Interhelp- staat 24 uur per dag, 7 dagen per week voor u klaar.",
+		"value": "Hulp na een ongeval"
+	}, {
+		"coverageNames": ["LiabilityCascoLimited", "LiabilityCasco"],
+		"uspDetail": {
+			"label": "ReplacementTransport",
+			"description": "Vervangend vervoer na ongeval in Nederland"
+		},
+		"description": "Als u uw schade laat repareren bij een gekwalificeerde garage waarmee Interpolis samenwerkt, krijgt u een leenauto terwijl uw auto wordt gerepareerd. Zonder extra kosten. U hoeft ook niets voor te schieten, Interpolis verrekent de kosten direct met de garage.",
+		"value": "Vervangend vervoer na ongeval in Nederland"
+	}, {
+		"coverageNames": ["LiabilityCascoLimited", "LiabilityCasco"],
+		"uspDetail": {
+			"label": "Windshield",
+			"description": "Ruitschade"
+		},
+		"description": "Met deze dekking zijn de kosten voor reparatie of vervanging van uw ruit voor rekening van Interpolis. Heeft uw auto schade door glasscherven van de kapotte ruit? Ook die schade wordt vergoed. U moet uw ruit wel laten repareren of vervangen bij een herstelbedrijf dat is aangesloten bij de FOCWA of BOVAG, anders wordt de schade niet vergoed.",
+		"value": "Ruitschade"
+	}, {
+		"coverageNames": ["LiabilityCascoLimited", "LiabilityCasco"],
+		"uspDetail": {
+			"label": "FireStormNature",
+			"description": "Brand, storm of aanrijding met dieren"
+		},
+		"description": "Met deze dekking bent u verzekerd tegen schade aan uw auto door onder andere: hagel en storm, blikseminslag, kortsluiting, brand en een botsing met overstekende dieren.",
+		"value": "Brand, storm of aanrijding met dieren"
+	}, {
+		"coverageNames": ["LiabilityCascoLimited", "LiabilityCasco"],
+		"uspDetail": {
+			"label": "TheftBurglary",
+			"description": "Diefstal, inbraak en joyriding"
+		},
+		"description": "Auto gestolen of total loss? Dan vergoedt Interpolis de eerste 3 jaar het bedrag dat u voor de auto heeft betaald. Dit geldt ook voor tweedehands auto's.<br />Kostte uw auto meer dan  50.000? Dan vergoedt Interpolis de eerste 3 jaar de dagwaarde plus 10%.<br />Heeft u uw auto meer dan 3 jaar? Dan vergoedt Interpolis de dagwaarde. De dagwaarde is het bedrag dat uw auto vandaag waard is. Dus niet het bedrag dat u ooit heeft betaald voor uw auto. De dagwaarde wordt door de schade-expert van Interpolis bepaald. De dagwaarde is onder andere afhankelijk van de staat van onderhoud waarin het motorrijtuig verkeert.",
+		"value": "Diefstal, inbraak en joyriding"
+	}, {
+		"coverageNames": ["LiabilityCasco"],
+		"uspDetail": {
+			"label": "Collision",
+			"description": "Botsing, slippartij, van de weg of te water raken"
+		},
+		"description": "Met deze dekking bent u verzekerd tegen schade door botsingen en slippartijen door eigen schuld. Ook schade als gevolg van omslaan, van de weg of in het water raken is verzekerd.",
+		"value": "Botsing, slippartij, van de weg of te water raken"
+	}, {
+		"coverageNames": ["LiabilityCasco"],
+		"uspDetail": {
+			"label": "Vandalism",
+			"description": "Vandalisme"
+		},
+		"description": "Heeft iemand uw autospiegel kapot geslagen, een deuk in uw deur getrapt, of krassen op uw auto gemaakt? Interpolis betaalt de reparatie van de schade.",
+		"value": "Vandalisme"
+	}, {
+		"coverageNames": ["LiabilityCasco"],
+		"uspDetail": {
+			"label": "OtherDamage",
+			"description": "Overige schade aan eigen auto"
+		},
+		"description": "<ul><li>kosten van noodreparatie, berging en stalling van de auto</li><li>schoonmaakkosten van uw auto bij ruitschade, als dat nodig is</li><li>kosten voor vervanging van kentekenbewijs en kentekenplaten</li><li>is uw auto gestolen en kiest u niet voor een vervangende auto van Interpolis? Dan krijgt u een vergoeding van  15 per dag voor de huur van een andere auto, tot maximaal 20 dagen</li></ul>",
+		"value": "Overige schade aan eigen auto"
+	}],
+	"firstColumnLabels": [
+		{
+			"label": "Eigen risico",
+			"value": "ownRisk"
+		}, {
+			"label": "Premie per maand",
+			"value": "value"
+		}
+	],
+	"messages": {
+		"ftm.error.general.0006": "Maak uw keuze"
+	},
+    "coverage": "Liability"
+}

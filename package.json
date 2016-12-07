@@ -1,0 +1,34 @@
+{
+  "name": "configure-car-insurance",
+  "version": "1.0.208",
+  "description": "Car business module for Aiep2",
+  "author": "Rabobank Nederland",
+  "repository": {
+    "type": "git",
+    "url": "https://git.rabobank.nl/projects/AV/repos/configure_car_insurance.git"
+  },
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "https://maven.rabobank.nl/nexus/content/repositories/mcv-release-npm"
+  },
+  "webpack": true,
+  "js": {
+    "moduleName": "car"
+  },
+  "devDependencies": {
+    "aiep-build-tools": "*",
+    "aiep-e2e-tools": "*",
+    "common-bm-frontend": "*"
+  },
+  "scripts": {
+    "postinstall": "npm update"
+  },
+  "dependencies": {
+    "configure-checkcode-insurance": "*",
+    "configure-closing-questions-insurance": "^1.0.59",
+    "configure-discontinue-insurance": "*",
+    "configure-driver-insurance": "*",
+    "configure-payment-method": "^1.0.65",
+    "summarize-order-insurance-aiep": "^1.0.40"
+  }
+}

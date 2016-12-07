@@ -1,0 +1,114 @@
+{
+	"cashReceipt": {
+		"configuringInsurance": {
+			"label": "Autoverzekering",
+			"basicCoverages": [
+				{
+					"label": "WA",
+					"name": "Liability",
+					"premium": "8,10",
+					"selected": "true",
+					"additionalCoverages": [{
+							"label": "Pechhulp Buitenland",
+							"premium": "3,40",
+							"name": "pechhulp_eur",
+							"selected": false
+						},
+						{
+							"label": "Pechhulp Nederland",
+							"premium": "2,40",
+							"name": "pechhulp_nl",
+							"selected": false
+						},
+						{
+							"label": "Interpolis No-Claim Garantie®",
+							"premium": "5,40",
+							"name": "no_claim_protection",
+							"selected": false
+						}
+					]
+				},
+				{
+					"label": "WA + Beperkt Casco",
+					"name": "LiabilityCascoLimited",
+					"premium": "9,30",
+					"selected": "false",
+					"additionalCoverages": [{
+						"label": "Pechhulp Buitenland",
+						"premium": "3,40",
+						"name": "pechhulp_eur",
+						"selected": false
+					},
+						{
+							"label": "Pechhulp Nederland",
+							"premium": "2,40",
+							"name": "pechhulp_nl",
+							"selected": false
+						},
+						{
+							"label": "Interpolis No-Claim Garantie®",
+							"premium": "5,40",
+							"name": "no_claim_protection",
+							"selected": false
+						}
+					]
+				},
+				{
+					"label": "WA + Volledig Casco",
+					"name": "LiabilityCasco",
+					"premium": "11,50",
+					"selected": "false",
+					"additionalCoverages": [{
+						"label": "Pechhulp Buitenland",
+						"premium": "3,40",
+						"name": "pechhulp_eur",
+						"selected": false
+					},
+						{
+							"label": "Pechhulp Nederland",
+							"premium": "2,40",
+							"name": "pechhulp_nl",
+							"selected": false
+						},
+						{
+							"label": "Interpolis No-Claim Garantie®",
+							"premium": "5,40",
+							"name": "no_claim_protection",
+							"selected": false
+						}
+					]
+				}
+			]
+		},
+		"otherInsurances": [
+			{
+				"label": "Rechtsbijstandverzekering",
+				"partOfFlow": "true",
+				"coverages": [
+					{
+						"label": "Schadeverzekering opzittenden",
+						"premium": "1,00",
+						"type": "schade_inzittenden"
+					},
+					{
+						"label": "Pechhulp Nederland",
+						"premium": "1,00",
+						"type": "pechhulp_eur"
+					}
+				]
+			}
+		],
+		"summary": {
+			"paymentFrequency": "per maand",
+			"subtotal": "Subtotaal",
+			"title": "Interpolis Alles in een Polis",
+			"summary": "U heeft verzekeringen in 2 rubrieken. Daardoor heeft u nu recht op 3% pakketkorting over uw gehele polis.",
+			"yourCurrentPremium": "Uw premie was",
+			"currentPremium": "15.00",
+			"currentDiscount": "inclusief 1% pakketkorting",
+			"yourNewPremium": "Uw premie wordt",
+			"newDiscount": "inclusief 3% pakketkorting",
+			"newDiscountShort": "3% pakketkorting"
+		}
+	}
+}

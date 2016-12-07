@@ -1,0 +1,389 @@
+{
+  "new": {
+    "carInState": [
+      {
+        "id": "1",
+        "field": "retrievedLicensePlate",
+        "value": "CR1111"
+      },
+      {
+        "id": "2",
+        "field": "brand",
+        "value": "Skoda"
+      },
+      {
+        "id": "3",
+        "field": "type",
+        "value": "Combi"
+      },
+      {
+        "id": "4",
+        "field": "model",
+        "value": "Octavia"
+      },
+      {
+        "id": "5",
+        "field": "weight",
+        "value": "1350"
+      },
+      {
+        "id": "6",
+        "field": "fuelDescription",
+        "value": "Diesel"
+      },
+      {
+        "id": "7",
+        "field": "gear",
+        "value": "Hand"
+      },
+      {
+        "id": "8",
+        "field": "catalogueValue",
+        "value": "31000"
+      },
+      {
+        "id": "9",
+        "field": "bodyShape",
+        "value": "sedan"
+      },
+      {
+        "id": "10",
+        "field": "YearOfConstruction",
+        "value": "1975"
+      }
+    ],
+    "saveUserCredentials": [
+      {
+        "id": "1",
+        "field": "userGenderCode",
+        "value": "1"
+      },
+      {
+        "id": "2",
+        "field": "userSurname",
+        "value": "Geel"
+      },
+      {
+        "id": "3",
+        "field": "userInitials",
+        "value": "M"
+      },
+      {
+        "id": "4",
+        "field": "userDateOfBirth",
+        "value": "05-05-1990"
+      }
+    ]
+  },
+  "modify": {
+    "carInState": [
+      {
+        "id": "1",
+        "field": "retrievedLicensePlate",
+        "value": "CR2222"
+      },
+      {
+        "id": "2",
+        "field": "brand",
+        "value": "Peugeot"
+      },
+      {
+        "id": "3",
+        "field": "type",
+        "value": "BLUE HDI"
+      },
+      {
+        "id": "4",
+        "field": "model",
+        "value": "TURBO"
+      },
+      {
+        "id": "5",
+        "field": "weight",
+        "value": "1180"
+      },
+      {
+        "id": "6",
+        "field": "fuelDescription",
+        "value": "Diesel"
+      },
+      {
+        "id": "7",
+        "field": "gear",
+        "value": "308"
+      },
+      {
+        "id": "8",
+        "field": "catalogueValue",
+        "value": "27000"
+      },
+      {
+        "id": "9",
+        "field": "bodyShape",
+        "value": "Nice body"
+      },
+      {
+        "id": "10",
+        "field": "YearOfConstruction",
+        "value": "1999"
+      }
+    ],
+    "saveUserCredentials": [
+      {
+        "id": "1",
+        "field": "userGenderCode",
+        "value": "1"
+      },
+      {
+        "id": "2",
+        "field": "userSurname",
+        "value": "Geel"
+      },
+      {
+        "id": "3",
+        "field": "userInitials",
+        "value": "M"
+      },
+      {
+        "id": "4",
+        "field": "userDateOfBirth",
+        "value": "05-05-1990"
+      }
+    ],
+    "updateTheState": [
+      {
+        "id": "1",
+        "field": "checkCode",
+        "value": "0123"
+      },
+      {
+        "id": "2",
+        "field": "licensePlate",
+        "value": "CR2222"
+      },
+      {
+        "id": "3",
+        "field": "yearOfManufacture",
+        "value": "1999"
+      },
+      {
+        "id": "4",
+        "field": "startDate",
+        "value": "01-01-2015"
+      },
+      {
+        "id": "5",
+        "field": "policyStartDate",
+        "value": "01-01-2015"
+      },
+      {
+        "id": "6",
+        "field": "relationToDriver",
+        "value": "0002"
+      },
+      {
+        "id": "7",
+        "field": "surname",
+        "value": "Wijzig"
+      },
+      {
+        "id": "8",
+        "field": "dateOfBirth",
+        "value": "05-05-1980"
+      },
+      {
+        "id": "9",
+        "field": "initials",
+        "value": "Ik"
+      },
+      {
+        "id": "10",
+        "field": "useOfCar",
+        "value": "Privé"
+      },
+      {
+        "id": "11",
+        "field": "claimFreeYears",
+        "value": "0"
+      },
+      {
+        "id": "12",
+        "field": "ownRisk",
+        "value": "0"
+      },
+      {
+        "id": "13",
+        "field": "coverage",
+        "value": "Liability"
+      },
+      {
+        "id": "14",
+        "field": "shouldShowLegalNotification",
+        "value": "true"
+      },
+      {
+        "id": "15",
+        "field": "additionalCoverages",
+        "value": "NoClaimProtection"
+      },
+      {
+        "id": "16",
+        "field": "paymentFrequency0",
+        "value": "MONTHLY"
+      }
+    ]
+  },
+  "extraCar": {
+    "carInState": [
+      {
+        "id": "1",
+        "field": "retrievedLicensePlate",
+        "value": "EXCA01"
+      },
+      {
+        "id": "2",
+        "field": "brand",
+        "value": "Skoda"
+      },
+      {
+        "id": "3",
+        "field": "type",
+        "value": "Combi"
+      },
+      {
+        "id": "4",
+        "field": "model",
+        "value": "Octavia"
+      },
+      {
+        "id": "5",
+        "field": "weight",
+        "value": "1350"
+      },
+      {
+        "id": "6",
+        "field": "fuelDescription",
+        "value": "Diesel"
+      },
+      {
+        "id": "7",
+        "field": "gear",
+        "value": "Hand"
+      },
+      {
+        "id": "8",
+        "field": "catalogueValue",
+        "value": "31000"
+      },
+      {
+        "id": "9",
+        "field": "bodyShape",
+        "value": "sedan"
+      },
+      {
+        "id": "10",
+        "field": "YearOfConstruction",
+        "value": "1985"
+      }
+    ],
+    "saveUserCredentials": [
+      {
+        "id": "1",
+        "field": "userGenderCode",
+        "value": "2"
+      },
+      {
+        "id": "2",
+        "field": "userSurname",
+        "value": "Geel"
+      },
+      {
+        "id": "3",
+        "field": "userInitials",
+        "value": "M"
+      },
+      {
+        "id": "4",
+        "field": "userDateOfBirth",
+        "value": "05-05-1990"
+      }
+    ],
+    "updateTheState": [
+      {
+        "id": "1",
+        "field": "checkCode",
+        "value": "0123"
+      },
+      {
+        "id": "2",
+        "field": "licensePlate",
+        "value": "EXCA01"
+      },
+      {
+        "id": "3",
+        "field": "yearOfManufacture",
+        "value": "1985"
+      },
+      {
+        "id": "4",
+        "field": "startDate",
+        "value": "01-01-2017"
+      },
+      {
+        "id": "5",
+        "field": "policyStartDate",
+        "value": "01-01-2017"
+      },
+      {
+        "id": "6",
+        "field": "relationToDriver",
+        "value": "0003"
+      },
+      {
+        "id": "7",
+        "field": "surname",
+        "value": "Kiddo"
+      },
+      {
+        "id": "8",
+        "field": "dateOfBirth",
+        "value": "02-06-1999"
+      },
+      {
+        "id": "9",
+        "field": "initials",
+        "value": "M.E."
+      },
+      {
+        "id": "10",
+        "field": "useOfCar",
+        "value": "Privé"
+      },
+      {
+        "id": "11",
+        "field": "claimFreeYears",
+        "value": "-5"
+      },
+      {
+        "id": "12",
+        "field": "ownRisk",
+        "value": "0"
+      },
+      {
+        "id": "13",
+        "field": "coverage",
+        "value": "Liability"
+      },
+      {
+        "id": "14",
+        "field": "shouldShowLegalNotification",
+        "value": "true"
+      },
+      {
+        "id": "15",
+        "field": "paymentFrequency0",
+        "value": "MONTHLY"
+      }
+    ]
+  }
+}

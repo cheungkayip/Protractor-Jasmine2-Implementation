@@ -1,0 +1,10 @@
+{
+	"messages":{
+		"0033":"Vul een geldige meldcode in."
+	},
+	"informational":"De meldcode bestaat uit de laatste 4 cijfers van het chassisnummer van uw auto. Zonder meldcode kunt u uw auto niet verzekeren.<br />Waar vindt u de meldcode?<br />- Opvragen bij de verkoper, dit kan als de meldcode nog vermeld staat op het oude kentekenbewijs.<br />-Op de chassissticker onder de motorkap of in een van de portieren van uw auto.<br />-Opvragen bij de Rijksdienst voor het Wegverkeer (RDW) met behulp van uw DigiD.<br />-Bij een nieuwe auto: opvragen bij de dealer.",
+	"checkcode":{
+		"label":"Wat is de meldcode van uw auto?",
+		"value":""
+	}
+}

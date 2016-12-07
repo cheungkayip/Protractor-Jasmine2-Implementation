@@ -1,0 +1,91 @@
+{
+	"licensePlate": "CR-22-22",
+	"messages": {
+		"0064": "TEST MESSAGE"
+	},
+	"attributes": [
+		{
+			"label": "Merk",
+			"value": "brand"
+		},
+		{
+			"label": "Model",
+			"value": "model"
+		},
+		{
+			"label": "Type",
+			"value": "type"
+		},
+		{
+			"label": "Schakeling",
+			"value": "gear"
+		},
+		{
+			"label": "Jaar",
+			"value": "yearOfConstruction"
+		},
+		{
+			"label": "Brandstof",
+			"value": "fuelCode"
+		},
+		{
+			"label": "Cataloguswaarde",
+			"value": "catalogueValue"
+		},
+		{
+			"label": "Carroserievorm",
+			"value": "bodyShape"
+		},
+		{
+			"label": "Gewicht",
+			"value": "weight"
+		}
+	],
+	"options": [
+		{
+			"id": "0",
+			"oldTimer": true,
+			"vehicle": {
+				"licensePlate": "SDFSDF",
+				"brand": "Opel",
+				"model":"Corsa",
+				"type":"1.6",
+				"gear":"Handgeschakeld",
+				"yearOfConstruction": "1999",
+				"fuelCode":"Benzine",
+				"catalogueValue":"18.000",
+				"weight":"hatchback"
+			}
+		},
+		{
+			"id": "1",
+			"oldTimer": true,
+			"vehicle": {
+				"licensePlate": "SDFSDF",
+				"brand":"Opel",
+				"model":"Corsa",
+				"type":"1.4",
+				"gear":"Handgeschakeld",
+				"yearOfConstruction": "1999",
+				"fuelCode":"Benzine",
+				"catalogueValue":"19.000",
+				"weight":"hatchback"
+			}
+		},
+		{
+			"id": "2",
+			"oldTimer": true,
+			"vehicle": {
+				"licensePlate": "SDFSDF",
+				"brand":"Opel",
+				"model":"Astra",
+				"type":"1.2",
+				"gear":"Handgeschakeld",
+				"yearOfConstruction": "1999",
+				"fuelCode":"Benzine",
+				"catalogueValue":"20.000",
+				"weight":"hatchback"
+			}
+		}
+	]
+}

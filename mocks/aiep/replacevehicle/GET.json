@@ -1,0 +1,27 @@
+{
+	"situation": {
+		"label": "Wat wilt u doen?",
+		"options": [
+			{
+				"key": "1",
+				"value": "Een extra auto verzekeren",
+				"notification": null,
+				"message": ""
+			},
+			{
+				"key": "2",
+				"value": "Ik wil de verzekering wijzigen. De verzekerde auto blijft hetzelfde.",
+				"notification": null,
+				"message": ""
+			},
+			{
+				"key": "3",
+				"value": "Ik ga van auto wisselen",
+				"notification": null,
+				"message": ""
+			}
+		],
+		"required": true,
+		"requiredMessage": "Maak een keuze."
+	}
+}

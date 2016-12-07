@@ -1,0 +1,81 @@
+<article class="rfs-container-fluid rfs-gutter-xs--none">
+	<aiep-driver driver-view="vm.model.driverView" start-date-insurance="vm.model.startDate.value"></aiep-driver>
+
+	<div class="rfs-row">
+		<div class="rfs-col-sm-6 rfs-col-xs-12">
+			<skav-select-box-dropdown
+				is-required="true"
+				rb-focussed-option="vm.model.claimFreeYears.options[4]"
+				rb-label="{{vm.model.claimFreeYears.label}}"
+				rb-messages="vm.model.messages['ftm.error.general.0006']"
+				rb-name="claimFreeYears"
+				rb-options="vm.model.claimFreeYears.options"
+				rb-selected="vm.model.claimFreeYears.selected"
+				rb-value="vm.model.claimFreeYears.value"
+				rb-disabled="vm.model.claimFreeYears.disabled">
+			</skav-select-box-dropdown>
+		</div>
+		
+		<div id="claimFreeYearsToolTip" class="skav-tooltip--align-input rfs-col-sm-6 rfs-col-xs-12">
+			<aiep-modal-button
+				data-ng-if="vm.model.claimFreeYears.tooltip.type === 'modal'"
+				dialog-id="claimFreeYears-dialog"
+				title="{{vm.model.claimFreeYears.label}}"
+				content="{{vm.model.claimFreeYears.tooltip.text}}"
+				content-id="claimFreeYearsTooltipText">
+			</aiep-modal-button>
+
+			<skav-tooltip
+				analytics-event-details="claimFreeYearsToolTip"
+				class="skav-tooltip--align-input"
+				data-ng-if="vm.model.claimFreeYears.tooltip.type === 'tooltip'">
+				<span class="skav-content" data-ng-bind-html="vm.model.claimFreeYears.tooltip.text"></span>
+			</skav-tooltip>
+		</div>
+	</div>
+	
+	<div class="rfs-row">
+		<skav-select-box-dropdown
+			class="rfs-col-sm-6 rfs-col-xs-12"
+			is-required="true"
+			rb-label="{{vm.model.useOfCar.label}}"
+			rb-messages="vm.model.messages['ftm.error.general.0006']"
+			rb-name="useOfCar"
+			rb-options="vm.model.useOfCar.options"
+			rb-selected="vm.model.useOfCar.selected"
+			rb-value="vm.model.useOfCar.value">
+		</skav-select-box-dropdown>
+		
+		<div id="useOfCarToolTip" class="skav-tooltip--align-input rfs-col-sm-6 rfs-col-xs-12">
+			<aiep-modal-button
+				dialog-id="useOfCar-dialog"
+				title="{{vm.model.useOfCar.label}}"
+				content="{{vm.model.useOfCar.tooltip.text}}"
+				content-id="useOfCarTooltipText">
+			</aiep-modal-button>
+		</div>
+	</div>
+
+	<skav-notification
+		aiep-analytics-status="useOfCar-business"
+		data-ng-if="vm.model.useOfCar.value == 'Zakelijk'"
+		id="useOfCar-business"
+		rb-bg-color="red"
+		rb-type="caution">
+		<span class="skav-content" data-ng-bind-html="vm.model.messages['ftm.alert.VehicleUse.PassengerCar']"></span>
+	</skav-notification>
+
+	<div class="rfs-row">
+		<skav-input-date
+			class="rfs-col-sm-6 rfs-col-xs-12"
+			is-required="true"
+			min-date="{{vm.model.minimumStartDate}}"
+			max-date="{{vm.oneYearFromNow()}}"
+			rb-label="{{vm.model.startDate.label}}"
+			rb-messages="vm.model.startDate.message"
+			rb-disabled="vm.model.startDate.disabled"
+			rb-name="startDate"
+			rb-value="vm.model.startDate.value">
+		</skav-input-date>
+	</div>
+</article>

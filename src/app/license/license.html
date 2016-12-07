@@ -1,0 +1,94 @@
+<article ng-if="vm.panel.loaded" class="rfs-container-fluid rfs-gutter-xs--none">
+	<div ng-if="vm.model.currentVehicle">
+		<div class="rfs-row">
+			<skav-input-car-number-plate
+				class="rfs-col-sm-6 rfs-col-xs-12"
+				rb-disabled="true"
+				rb-label="{{vm.model.currentVehicle.label}}"
+				rb-name="currentLicensePlateNumber"
+				rb-value="vm.model.currentVehicle.licensePlate">
+			</skav-input-car-number-plate>
+		</div>
+
+		<aiep-audascan
+			vehicle="vm.model.currentVehicle">
+		</aiep-audascan>
+	</div>
+
+	<div class="rfs-row">
+		<skav-input-car-number-plate
+			class="rfs-col-sm-6 rfs-col-xs-12"
+			is-required="true"
+			rb-label="{{vm.model.licensePlateNumber.label}}"
+			rb-messages="vm.model.messages['ftm.error.general.0017']"
+			rb-name="licensePlateNumber"
+			rb-value="vm.model.licensePlateNumber.value"
+			valid-number-plate="true">
+		</skav-input-car-number-plate>
+
+		<div class="rfs-col-sm-3 rfs-col-xs-12 skav-util-margin-top" data-ng-if="vm.model.loading">
+			<skav-spinner class="m skav-util-margin-top" rb-type="infinite"></skav-spinner>
+		</div>
+	</div>
+
+	<div data-ng-if="vm.model.vehicle">
+		<!-- Message if change flow -->
+		<skav-notification
+			aiep-analytics-status="change-vehicle"
+			data-ng-if="vm.model.vehicle.messages['ftm.error.general.0064']"
+			id="change-vehicle"
+			rb-bg-color="grey"
+			rb-type="alert">
+			{{vm.model.vehicle.messages['ftm.error.general.0064']}}
+		</skav-notification>
+		<!-- Message in change flow -->
+
+		<aiep-audascan
+			data-ng-if="!vm.model.vehicle.error"
+			vehicle="vm.model.vehicle"
+			alert="vm.model.vehicle.messages['ftm.error.general.0062']"
+			errormessage="vm.model.messages['ftm.error.general.0006']">
+		</aiep-audascan>
+
+		<skav-notification
+			aiep-analytics-status="audascan-error"
+			data-ng-if="vm.model.vehicle.error"
+			id="audascan-error"
+			rb-bg-color="red"
+			rb-type="caution">
+			{{vm.model.vehicle.error}}
+		</skav-notification>
+
+		<div data-ng-if="vm.model.vehicle.selected.oldTimer">
+			<!-- Your car is Oldtimer alert -->
+			<skav-notification
+				aiep-analytics-status="oldtimer-alert"
+				id="oldtimer-alert"
+				rb-bg-color="lightblue"
+				rb-type="alert">
+				{{vm.model.messages['ftm.alert.YearOfManufacture.PassengerCar']}}
+			</skav-notification>
+			<!-- //Your Car is Oldtimer alert -->
+
+			<skav-radio-group
+				is-required="true"
+				rb-label="{{vm.model.oldTimerInsurance.label}}"
+				rb-messages="vm.model.messages['ftm.error.general.0006']"
+				rb-name="oldTimerInsurance"
+				rb-options="vm.model.oldTimerInsurance.options"
+				rb-value="vm.model.oldTimerInsurance.value">
+			</skav-radio-group>
+
+			<!-- Switch to Oldtimer alert -->
+			<skav-notification
+				aiep-analytics-status="oldtimer-switch-alert"
+				data-ng-if="vm.model.oldTimerInsurance.value === vm.model.oldTimerInsurance.options[0].key && vm.model.oldTimerInsurance.message"
+				id="oldtimer-switch-alert"
+				rb-bg-color="grey"
+				rb-type="alert">
+				{{vm.model.oldTimerInsurance.message}}
+			</skav-notification>
+			<!-- //Switch to Oldtimer alert -->
+		</div>
+	</div>
+</article>

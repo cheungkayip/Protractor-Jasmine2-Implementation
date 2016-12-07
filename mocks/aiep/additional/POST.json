@@ -1,0 +1,40 @@
+{
+	"additionalCoverages": [
+		{
+			"usps": ["Geen premiestijging als u een keertje schade heeft.", "Ongeacht de hoogte van uw schadebedrag.", "U betaalt geen premie voor de No-Claim Garantie zo lang u meer dan 19 schadevrije jaren heeft."],
+			"premium": {
+				"amount": "5,40",
+				"paymentFrequency": "per maand"
+			},
+			"selected": false,
+			"disabled": false,
+			"coverageText": "<strong>Interpolis No-Claim Garantie®</strong><br />De Interpolis No-Claim Garantie® stelt uw no-claimkorting veilig zolang u bij Interpolis bent verzekerd. U kunt één schade per verzekeringsjaar claimen en houdt gewoon uw korting, ongeacht de hoogte van de schade.",
+			"type": "no_claim_protection",
+			"label": "Interpolis No-Claim Garantie®"
+		},
+		{
+			"usps": ["Hulpverlening langs de weg.", "Vervangend vervoer.", "Vervoer van het motorrijtuig naar Nederland."],
+			"premium": {
+				"amount": "3,40",
+				"paymentFrequency": "per maand"
+			},
+			"selected": true,
+			"disabled": false,
+			"coverageText": "<strong>Voertuighulp buitenland</strong><br />Pech met uw auto komt altijd op het verkeerde moment. Helemaal als u bijvoobeeld met vakantie in het buitenland bent. Met deze dekking kunt u snel weer verder. Hulp bij autopech in Europa, dag en nacht. Reparatie, transport en/of vervangend vervoer.<br /> Verzeker alleen wat nodig is. Controleer daarom eerst of u deze dekking misschien al bij een andere verzekering of via uw autodealer heeft.",
+			"type": "pechhulp_eur",
+			"label": "Voertuighulp Buitenland"
+		},
+		{
+			"usps": ["Hulp als u pech heeft.", "Vervangend vervoer.", "Ook bij pech in uw eigen woonplaats."],
+			"premium": {
+				"amount": "2,40",
+				"paymentFrequency": "per maand"
+			},
+			"selected": false,
+			"disabled": false,
+			"coverageText": "<strong>Voertuighulp Nederland</strong><br />Hulp bij autopech in Nederland, dag en nacht. Ook als u pech krijgt in uw eigen woonplaats. Uw auto wordt direct gerepareerd of vervoerd naar de garage en later gerepareerd. In dat geval krijgt u een tijdelijke auto. <br /> Verzeker alleen wat nodig is. Controleer daarom eerst of u deze dekking misschien al via een andere verzekering of via uw autodealer heeft.",
+			"type": "pechhulp_nl",
+			"label": "Voertuighulp Nederland"
+		}
+	]
+}
