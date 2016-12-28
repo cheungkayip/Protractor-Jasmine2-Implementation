@@ -1,6 +1,4 @@
-/**
- * Created by brinkwj on 14-04-2017.
- */
+
 'use strict';
 function AfterPage() {
 }

@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>nl.rabobank.gict.mcv.damage_insurance</groupId>
+        <groupId>nl.protractorJasmine2Implementation.gict.mcv.damage_insurance</groupId>
         <artifactId>aiep-maven-parent</artifactId>
         <version>1.0.4</version>
         <relativePath>../../../../../</relativePath>
@@ -18,9 +18,9 @@
     </properties>
 
     <scm>
-        <connection>scm:git:ssh://git@git.rabobank.nl:7999/av/configure_car_insurance.git</connection>
-        <developerConnection>scm:git:ssh://git@git.rabobank.nl:7999/av/configure_car_insurance.git</developerConnection>
-        <url>https://git.rabobank.nl/projects/AV/repos/configure_car_insurance</url>
+        <connection>scm:git:ssh://git@git.protractorJasmine2Implementation.nl:7999/av/configure_car_insurance.git</connection>
+        <developerConnection>scm:git:ssh://git@git.protractorJasmine2Implementation.nl:7999/av/configure_car_insurance.git</developerConnection>
+        <url>https://git.protractorJasmine2Implementation.nl/projects/AV/repos/configure_car_insurance</url>
       <tag>HEAD</tag>
   </scm>
 
