@@ -1,9 +1,29 @@
-var config = require('aiep-e2e-tools/protractor.shared.conf.js').config;
 
-config.suites = {
-	mobile: ['./**/e2e/bm/*.e2e.spec.js'],
-	regression: ['./**/e2e/bm/*.e2e.spec.js'],
-	smoke: ['./**/e2e/bm/*.e2e.spec.js']
-}
+let HtmlScreenshotReporter = require('protractor-jasmine2-screenshot-reporter');
 
-exports.config = config;
+let reporter = new HtmlScreenshotReporter({
+    dest: 'target/screenshots',
+    filename: 'my-report.html'
+});
+
+exports.config = {
+    seleniumAddress: 'http://localhost:4444/wd/hub',
+    specs: ['./test/e2e/AngularTest.js'],
+
+// …// Setup the report before any tests start
+    beforeLaunch: function() {
+        return new Promise(function(resolve){
+            reporter.beforeLaunch(resolve);
+        });
+    },
+// Assign the test reporter to each running instance
+    onPrepare: function() {
+        jasmine.getEnv().addReporter(reporter);
+    },
+// Close the report after all tests finish
+    afterLaunch: function(exitCode) {
+        return new Promise(function(resolve){
+            reporter.afterLaunch(resolve.bind(this, exitCode));
+        });
+    }
+};
